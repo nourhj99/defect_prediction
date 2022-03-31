@@ -32,11 +32,16 @@ python3 server.py
 ## front end
 Go to the directory by typing 
 ```
-cd front-defect-pred
+cd front-end
 ```
-To run it just type:
+To install dependencies:
 ```
-python3 server.py
+pip3 install -r requirements.txt
+```
+
+To serve the front on your local Machine:
+```
+python3 main.py
 ```
 
 # Rest API
